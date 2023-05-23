@@ -2,7 +2,7 @@ function up(n){
 
 	n = parseInt(prompt("enter"));
 
-	for (var i = 0; i <= n; i++) {
+// 	for (var i = 0; i <= n; i++) {					//incrassing numbers																
 
 		console.log(i);
 	}
@@ -12,7 +12,7 @@ function up(n){
 
 function des(n){
 // descending order
-	for (var i = n; i >= 0; i--) {
+	for (var i = n; i >= 0; i--) {					
 	
 		console.log(i);
 	}	
@@ -34,7 +34,7 @@ function zero (n) {
 }
 
 zero (n);
-
+//other way aswell
 // for (i = 100 * -1 ; i <= 0; i++) {  																							 <<--------	another way as well----->>        
 
 // 	console.log(i);
