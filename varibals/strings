@@ -1,0 +1,11 @@
+
+
+
+
+const two => {
+
+	const text1;
+	const text2;
+	console.log(text1," ",text2);
+
+}
