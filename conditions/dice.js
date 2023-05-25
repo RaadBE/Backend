@@ -8,14 +8,14 @@ const randomNum = (min, max) => {
 	if (n[1] === n[2] && n[0] === n[1] && n[0] === n[2]) {
 		console.log("three dices");
 
-	}else if (n[0] === n[1]){
+	}else if (n[0] === n[1] || n[0] === n[2] || n[1] === n[2]){
 		console.log("two dices");
 
-	}else if(n[0] === n[2])  {
-		console.log("two dics");
-
-	}else if(n[1] === n[2])  {
-		console.log("two dics");
+	//}else if(n[0] === n[2])  {
+	//	console.log("two dics");
+//
+//	}else if(n[1] === n[2])  {
+//		console.log("two dics");
 	}else {
 		console.log("to bad");
 	}

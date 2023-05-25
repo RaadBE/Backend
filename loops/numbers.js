@@ -34,8 +34,14 @@ function zero (n) {
 }
 
 zero (n);
-
-// for (i = 100 * -1 ; i <= 0; i++) {  																							 <<--------	another way as well----->>        
+let incrementer = 1;
+if (n < 0) {
+	incrementer = -1;
+}
+for (i = n; i !== -n; i += incrementer) {
+	console.log(i);
+}
+// for (i = n * -1 ; i <= 0; i++) {  																							 <<--------	another way as well----->>        
 
 // 	console.log(i);
 
@@ -44,4 +50,16 @@ zero (n);
 // 	}
 // }
 
+
+// print only odd and even numbers for even add !=
+function aa (n) {
+for (var i =0; i <= n; i++) {
+
+	if (i % 2 == 0) {    
+	console.log(i)
+	}
+}
+}
+
+aa(10);
 
