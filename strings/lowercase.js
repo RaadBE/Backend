@@ -1,0 +1,3 @@
+
+
+const userinp = prompt("Enter:");

@@ -21,9 +21,6 @@ const randomNum = (min, max) => {
 	}
 	console.log(n);
 }
-
- 
-
 randomNum(0,6);
 
 
